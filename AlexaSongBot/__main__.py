@@ -33,7 +33,7 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="Support Group", url="https://t.me/GIRLS_AND_BOYS_CHATTING"
+                        text="Battle Group", url="https://t.me/battlemuzakire"
                     )
                 ]
             ]
@@ -52,7 +52,7 @@ async def help(client, message):
     text = "Syntax: /song song name"
     await message.reply(text)
 
-OWNER_ID.append(797768146)
+OWNER_ID.append(848632771)
 app.start()
 LOGGER.info("Your bot is now online.")
 idle()
